@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header__container{
+    position: relative;
+    text-align: center;
+}
+.header__input{
+    margin-top: 10px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid blue;
+}
+.header__form{
+    padding: 30px;
+}
+.header__btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: blue;
+    color: #FFFF;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.header__item{
+    left: 930px;
+    bottom: 70px;
+    position: absolute;
+    justify-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    color: blue;
+}
